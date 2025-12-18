@@ -1,0 +1,17 @@
+[
+    {
+        "baslik": "HTML",
+        "aciklama": "Web sitesinin iskeletini oluşturur.",
+        "ikon": "🦴"
+    },
+    {
+        "baslik": "CSS / SCSS",
+        "aciklama": "Sitenin tasarımını ve süslemelerini yapar.",
+        "ikon": "🎨"
+    },
+    {
+        "baslik": "JavaScript",
+        "aciklama": "Siteye hareket ve zeka katar.",
+        "ikon": "🧠"
+    }
+]

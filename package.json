@@ -1,0 +1,13 @@
+{
+  "name": "benim-ilk-projem",
+  "version": "1.0.0",
+  "description": "HTML, CSS ve JS öğrenme projesi",
+  "author": "Ferhat ATAY",
+  "main": "index.html",
+  "scripts": {
+    "baslat": "live-server"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0" 
+  }
+}

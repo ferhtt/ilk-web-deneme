@@ -1,0 +1,15 @@
+# Bu bir yorum satırıdır. Aşağıdakiler GitHub'a yüklenmez.
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Node modülleri (İleride çok işine yarayacak, içi binlerce dosya doludur)
+node_modules/
+
+# SASS cache dosyaları
+.sass-cache/
+
+# Kişisel notlarım
+sifrelerim.txt
+taslaklar/

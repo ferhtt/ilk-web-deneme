@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* Değişken Tanımlama (Rengi bir kere seçiyoruz) */
+/* Turuncu */
+/* İç İçe Yazım (Nesting) - CSS'ten daha düzenli */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+body .kutu {
+  border: 2px solid #ff6600; /* Değişkeni kullandık */
+  padding: 20px;
+}
+body .kutu h1 {
+  color: #ff6600; /* Değişkeni tekrar kullandık */
+}
+body .kutu button {
+  background-color: #ff6600;
+}
+body .kutu button:hover {
+  background-color: black; /* Sadece hover olunca siyah */
+}
+
+/* --- MOBİL UYUMLULUK (Responsive) --- */
+/* Eğer ekran genişliği 768 pikselden küçükse (Tablet ve Telefonlar) */
+@media (max-width: 768px) {
+  body {
+    background-color: #333; /* Arka plan koyu olsun */
+    color: white; /* Yazılar beyaz olsun */
+    flex-direction: column; /* Yan yana değil, alt alta dizilsin */
+    height: auto; /* Yükseklik serbest olsun */
+    padding: 20px;
+  }
+  .kutu {
+    width: 100%; /* Kutu ekranı tam kaplasın */
+    border: none; /* Kenarlığı kaldıralım */
+    border-radius: 0; /* Köşeler keskin olsun */
+    /* Mobilde gölgeyi kaldıralım, daha düz (flat) görünsün */
+    box-shadow: none;
+  }
+  h1 {
+    font-size: 24px; /* Başlığı biraz küçültelim */
+    color: #ff6600; /* Turuncu kalsın */
+  }
+}/*# sourceMappingURL=style.css.map */
